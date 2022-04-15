@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.randomFunction{
+    margin: 4rem;
+} 
+
+.card{
+    background-color: #ffffff;
+    width:31.5vw;
+    margin: 2.5rem;
+   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:center ;
+   align-items: center;
+   border-radius:0.5rem;
+   opacity: 0.9;
+  font-family: "Poppins", sans-serif;
+   text-align: center;
+}
+
+.card:hover{
+    background-color: #652eff;
+    color: rgb(255, 255, 255);
+   
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.card-img-top{
+    width: 30vw;
+    display: flex;
+    padding:0.65rem;
+   
+    
+}
+@media only screen and (max-width: 1024px) {
+    .card{
+        background-color: #fefefe;
+        width: 70vw;
+        margin: 2.5rem;
+       box-shadow: inset;
+       display: flex;
+    }
+    .card-img-top{
+        width: 50vw;
+        display: flex;}
+        
+        
+  }
+
+  .App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(177, 182, 185);
+  }
+  
+  .head{
+    text-align: center;
+    padding: 22px;
+  }
+  
+  .content{
+   padding: 1.5rem;
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+   .content{
+     padding: 0.25rem;
+   }
+  }
+
+  a {
+      color: white;
+      
+  }

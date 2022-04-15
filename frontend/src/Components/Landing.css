@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.rocket-img{
+    width:60vw;
+    
+    float: right;
+    
+}
+
+.header-1{
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    color: rgb(244, 241, 241);
+}
+
+.about-us{
+    font-family: "Poppins", sans-serif;
+    margin: 2.25rem;
+    width:40vw;
+    color: rgb(255, 251, 251);
+}
+
+.project-title{
+    font-family: "Poppins", sans-serif;
+     margin: 2.25rem;
+     color: rgb(233, 227, 227);
+   
+}
+
+.content-page{
+    display: flex;
+    color: rgb(50, 48, 48);
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .rocket-img{
+        display: none;
+      }
+  
+      .header-1{
+        font-family: "Poppins", sans-serif;
+          margin: 1rem;
+          padding: 1rem;
+      }
+      
+      .about-us{
+        font-family: "Poppins", sans-serif;
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          width:70vw;
+          padding: 2rem;
+      }
+      
+      .project-title{
+        font-family: "Poppins", sans-serif;
+           margin: 2.25rem;
+         
+      }
+      
+      .contents{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+      }
+  
+      .main-content{
+          text-align: center;
+      }
+}
+
+
+.Faq{
+    float: left;
+    margin:1rem;
+    width:25vw;
+}
+
+.policy{
+    text-align: center;
+    
+   }
+
+
+   @media screen and (max-width: 700px) {
+    .Faq{
+        display:block;
+        width:40vw;
+        margin:0px auto;
+    }}
