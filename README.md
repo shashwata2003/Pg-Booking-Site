@@ -23,3 +23,5 @@ For The Frontend Folder => Write These Commands in the terminal to run server on
 4.npm run start
 
 HOPE YOU WOULD LOVE OUR PROJECT If doing any changes make sure to make children Github branches and then commit , please don't commit on the main branch.
+
+Before Running the Webiste Locally Make Sure TO Connect Your Own Database with the URL in the db.js file  and Have Your Own Stripe API to be updated in the server.js file in backend folder.
